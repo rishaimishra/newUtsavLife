@@ -1,0 +1,56 @@
+{{-- <style>
+  .modal-body {
+    max-height: 550px;
+    overflow-y: auto;
+    text-align: justify;
+}
+</style> --}}
+<!-- contact Modal -->
+<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="new-heading mb-0">Cookies Privacy Policy</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4 class="modal-heading">Cookies Policy</h4>
+        <p class="modal-para">This Cookies Policy supplements our Privacy Policy and describes the different types of cookies and other similar technologies that may be used in connection with the Platform to facilitate the Services to You. This Cookies Policy also describes how you can manage cookies and other similar technologies. Please read this Cookies Policy with our Privacy Policy.</p>
+        <p class="modal-para">Capitalized terms used but not defined in this Cookies Policy can be found in our Privacy Policy, Terms of Service, and any other rules, policies or guidelines published on the Platform as applicable to you (collectively referred to as the “Platform Terms”).</p>
+        <p class="modal-para">By accessing our Platform, you agree to the use of cookies and similar technologies for the purposes described in this Cookies Policy.</p>
+        <h4 class="modal-heading">A. What are Cookies and other similar technologies?</h4>
+        <p class="modal-para">Cookies are small files of data in the form of text files created by web browsers you may use and are stored on your device’s hard drive. They allow website providers to identify users, store preferential information, and understand users’ browsing activities. There are other similar technologies (as specified below) that allow us and third parties to obtain information about your visits to the Site, usage of the Platform, including to analyze your visiting patterns. We use this information to provide Services on the Platform and messages and content for us and others that are specific to your interests.</p>
+        <h4 class="modal-heading">B. Cookies and Similar Technologies – General Information</h4>
+        <p class="modal-para">There are two main types of cookies: First-party cookies which are set by Utsavlife directly when you use our Site, and third-party cookies which are set by other websites, such as that of certain third-party services providers whose platform may be integrated with our Platform to facilitate Services to you</p>
+        <p class="modal-para">Cookies alone cannot be used to disclose your individual identity to us, though in some cases we may tie Utsavlife or third-party Cookies to personal information you have provided to us or that we have otherwise obtained about you in accordance with our Privacy Policy.</p>
+        <p class="modal-para">Other technologies that may be used include web beacons, which are tiny that are used to understand browsing activity; social widgets - these are buttons or icons provided by third- party social media providers that allow you to interact with social media services when you view a webpage or mobile app screen. These social widgets may collect browsing data, which may be received by the third party that provided the widget and are controlled by third parties; UTM codes are strings that can appear in a URL (the “Uniform Resource Locator,” which is typically the http or https address entered to go to a web page) when you move from one web page or website to another, where the string can represent information about browsing, such as which advertisement, page, or publisher sent the user to the receiving website; and site optimization and usage tracking.</p>
+        <p class="modal-para">We may contract with third party service providers to help manage and optimize our Internet business and communications, and these third-party service providers may also use the technologies described in this section to collect certain information.</p>
+        <h4 class="modal-heading">C. What Cookies and Other Technologies Are in Use and Why Do We Use Them?</h4>
+        <p class="modal-para">We may use different types of cookies on the Platform:</p>
+        <p class="modal-para"><b>Essential Cookies:</b> Essential Cookies are necessary for the Platform to work and enable you to move around it and use its services and features. Disabling these cookies may make the services and features unavailable.</p>
+        <p class="modal-para"><b>Functional Cookies:</b> We use Functional Cookies to save your settings on the Platform—settings such as language and other user preferences you have previously opted for on the Site. We may also use "Flash Cookies" for some of our animated or other video content.</p>
+        <p class="modal-para"><b> Session Cookies:</b> These types of cookies are stored only temporarily during a browsing session and are deleted from your device when you close the browser or the application. We use Session Cookies to support the functionality of the Platform and to understand your use of the Platform—that is, which pages you visit, which links you use, what content you are viewing, and how long you stay on each page.</p>
+        <p class="modal-para"><b>Persistent Cookies:</b> These types of cookies are not deleted when you close your browser or the application but are saved on your device for a fixed period of time or until you delete them. Each time you visit the Platform, the server that sets the cookie will recognize the persistent cookie saved on your device. We and others may use persistent cookies to store your preferences, so that they are available for your next visit, to keep a more accurate account of how often you visit the Platform, how often you return, how your use of the Platform may vary over time and the effectiveness of advertising efforts.</p>
+        <p class="modal-para"><b>Analytics Cookies:</b> Analytics Cookies collect information about your use of the Platform and enable us to improve the way it works. These cookies give us aggregated information that we use to monitor site performance, count page visits, spot technical errors, see how users reach the Platform, and measure the effectiveness of advertising (including emails we send to you).</p>
+        <p class="modal-para">Apart from the above, we may also use the following types of cookies-</p>
+        <p class="modal-para"><b>Advertising Cookies:</b> These cookies allow us and other advertisers to show you the most relevant products, offers, and advertisements on the Platform and third-party sites, or through emails or other message platforms. These types of cookies also help us provide you with content on the Platform that is tailored to your interests and needs. As noted below, some Analytics Cookies and other technologies are used in part to facilitate advertising. Advertising Cookies also include Social Plug-In Cookies.</p>
+        <p class="modal-para"><b>Social Plug-In Cookies:</b> Social Plug-In Cookies are used to share content from the Platform with members and non-members of social media networks such as Facebook, Twitter, YouTube and Pinterest. These cookies are usually set by the social networking provider, enabling such sharing to be smooth and seamless.</p>
+        <p class="modal-para">Cookies may also be used on the Platform in order to improve your experience. For example, we may use cookies to:</p>
+        <p class="modal-para">Remember your username and password for future visits so that log-in is easier and faster</p>
+        <p class="modal-para">Track your response to Platform content for analysis;
+        </p>
+        <p class="modal-para">Measure how many people use the Platform, and how they use it, so that we may keep it running quickly and efficiently; and
+          Help us and others deliver communications and content to you that are relevant and responsive to your interests and location.
+          </p>
+        <p class="modal-para"><b>Google Analytics:</b> We use Google Analytics to collect and process statistical data about the number of people using the Platform and to better understand how they find and use the Platform. The data collected includes data related to your device/browser and on-site activities to measure and report statistics about user interactions on the Platform. Any data collected is used in accordance with this Policy and Google’s privacy policy. You may learn more about Google Analytics by visiting <a href="https://www.google.com/policies/privacy/partners/"> https://www.google.com/policies/privacy/partners/ </a> and <a href="https://support.google.com/analytics/answer/6004245"> https://support.google.com/analytics/answer/6004245 </a>. You can learn more about Google’s restrictions on data use by visiting the Google Privacy Policy</p>
+        <p class="modal-para">at: <a href="https://www.google.com/policies/privacy"> https://www.google.com/policies/privacy. </a> To opt-out of Google Analytics, visit <a href="https://tools.google.com/dlpage/gaoptout"> https://tools.google.com/dlpage/gaoptout </a> and install the opt-out browser add-on feature. For more details, visit the “Google Analytics opt-out browser add-on” page (located at <a href="https://support.google.com/analytics/answer/181881?hl=en">https://support.google.com/analytics/answer/181881?hl=en</a>).</p>
+        <p class="modal-para">Other Third-Party Technologies: Some third parties may use automated data collection technologies to collect information about you when you browse the Internet. The information they collect about your online browsing activities over time and across different websites and other online services may be associated with your personal information and used to provide you with targeted content. We do not control these third parties’ technologies or how they may be used. If you have any questions about targeted content, you should contact the responsible party directly or consult their privacy policies.</p>
+        <h4 class="modal-heading">D. Choices About Cookies</h4>
+        <p class="modal-para">We provide you with choices regarding the personal information you provide to us, and we have created ways to give you control over your information. Most web browsers are set by default to accept cookies. If you do not wish to receive cookies, you may choose to set your browser to remove or reject cookies by adjusting your browser settings. Please be aware that, if you decline the use of cookies, you may not have access to the full benefits of the Platform.</p>
+        <p class="modal-para">To manage third-party usage of Other Technologies, contact the third party directly or consult their privacy policies. Utsavlife is not responsible for third-party use of Other Third-Party Technologies.</p>
+        <h4 class="modal-heading">E. Contact Us</h4>
+        <p class="modal-para">If you have any questions regarding this Cookies Policy, please write to us at <a href="mailto:info@utsavlife.com">info@utsavlife.com</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
