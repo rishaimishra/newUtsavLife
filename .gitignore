@@ -19,9 +19,5 @@ resources/views/Agent/includes/head.blade.php
 resources/views/Agent/includes/script.blade.php
 resources/views/vandor/includes/head.blade.php
 resources/views/vandor/includes/script.blade.php
-<<<<<<< HEAD
-routes/web.php
 server.php
-=======
 index.php
->>>>>>> 1fd89033ba9adfb8f8b0980f96e65d4ded5d43d4

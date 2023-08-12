@@ -48,7 +48,10 @@ table.dataTable tbody tr {
 					
 					<div class="clearfix"></div>
 					<div class="panel panel-default">
-						<h3>Wallet Total: {{$wallet_total}}</h3>
+						<h3>Pending Wallet Total: {{$wallet_total}}</h3>
+						<h3>Withdrawable: {{$withdraw}}</h3>
+						{{-- {{$vendor_id}} --}}
+						<a href="{{route('admin.wallet.transactions',$vendor_id)}}">transaction list</a>
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-md-12 col-sm-12 col-xs-12">
@@ -62,6 +65,8 @@ table.dataTable tbody tr {
 													<th scope="col">Total Price</th>
 													<th scope="col">Event Address</th>
 													<th scope="col">Event Pin</th>
+													<th scope="col">Status</th>
+													<th scope="col">Withdraw Request</th>
 													<th scope="col">Action</th>
 												</tr>
 											</thead>
@@ -76,10 +81,18 @@ table.dataTable tbody tr {
 													<td data-label="Name">{{@$value->total_price}}</td>
 													<td data-label="Name">{{@$value->event_address}}</td>
 													<td data-label="Name">{{@$value->event_pin}}</td>
-													{{-- <td data-label="Mail ID">@if(@$value->status=="A")
+													<td data-label="Mail ID">@if(@$value->status=="A")
 														<p>Active</p>
-														@elseif(@$value->status=="U")
-														<p>Unverified</p>
+														@elseif(@$value->status=="P")
+														<p>Pending</p>
+														@else
+														Inactive
+													@endif</td>
+													
+													<td data-label="Mail ID">@if(@$value->WithdrawReq=="Approved")
+														<p>Approved</p>
+														@elseif(@$value->WithdrawReq=="P")
+														<p>Pending</p>
 														@else
 														Inactive
 													@endif</td>
@@ -89,12 +102,13 @@ table.dataTable tbody tr {
 														<ul>
 															
 														
-															<li><a href="{{route('admin.wallet.view',$value->id)}}">View Wallet</a></li>
+															<li><a href="{{route('admin.wallet.withdraw.approve',$value->id)}}">Approve</a></li>
+															<li><a href="{{route('admin.wallet.withdraw.disapprove',$value->id)}}">DisApprove</a></li>
 
 																										
 														</ul>
 													</div>
-												</td> --}}
+												</td>
 												
 											</tr>
 											
@@ -137,6 +151,23 @@ oTable = $('#example_wallet').DataTable({
 $('#myInputTextField').keyup(function(){
 oTable.search($(this).val()).draw() ;
 })
+
+function fun(id){
+$('.show-actions').slideUp();
+$("#show-action"+id).show();
+}
+function Cancel(id){
+$("#show-action"+id).hide();
+}
+$(document).mouseup(function(e)
+{
+var container = $(".show-actions");
+// if the target of the click isn't the container nor a descendant of the container
+if (!container.is(e.target) && container.has(e.target).length === 0)
+{
+container.hide();
+}
+});
 </script>
 <script>
 var resizefunc = [];

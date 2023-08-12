@@ -44,7 +44,8 @@
 
                         <div class="clearfix"></div>
                         <div class="panel panel-default">
-                            <h3>Wallet Total: {{ $wallet_total }}</h3>
+                            <h3>Pending Wallet Total: {{ $wallet_total }}</h3>
+                            <h3>Withdrawable: {{$withdraw}}</h3>
                             <a href="{{route('wallet.transactions')}}">transaction list</a>
 
                             <!-- Button trigger modal -->
